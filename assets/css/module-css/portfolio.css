@@ -444,7 +444,7 @@
 
 .portfolio-two__title {
     position: absolute;
-    left: -40px;
+    left: -20px;
     bottom: 112px;
     transform: rotate(-90deg);
     opacity: 1;
@@ -525,7 +525,7 @@
     right: 0;
     bottom: 0;
     opacity: 0;
-    background: linear-gradient(90deg,#7DB828 0%, #007EC8 100%);
+    background: linear-gradient(90deg, #7DB828 0%, #007EC8 100%);
     border-radius: 50%;
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
@@ -897,7 +897,7 @@
     right: 0;
     bottom: 0;
     opacity: 0;
-    background: linear-gradient(90deg,#7DB828 0%, #007EC8 100%);
+    background: linear-gradient(90deg, #7DB828 0%, #007EC8 100%);
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 14px;
     -webkit-transition: all 500ms ease;
@@ -1028,7 +1028,7 @@
     right: 0;
     bottom: 0;
     opacity: 0;
-    background: linear-gradient(90deg,#7DB828 0%, #007EC8 100%);
+    background: linear-gradient(90deg, #7DB828 0%, #007EC8 100%);
     border-radius: 50%;
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
@@ -1101,7 +1101,7 @@
     line-height: 34px;
     font-weight: 700;
     counter-increment: count 1;
-    content: "0"counter(count);
+    content: "0" counter(count);
     color: var(--FuzionIQ-gray);
 }
 

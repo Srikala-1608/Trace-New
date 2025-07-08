@@ -284,7 +284,7 @@
     left: 50%;
     width: 80px;
     height: 80px;
-    background: linear-gradient(270deg, #5CB0E9 0%, #3D72FC 100%);
+    background: linear-gradient(270deg, #e9895c 0%, #ee6728 100%);
     border-radius: 50%;
     font-size: 40px;
     line-height: 40px;
@@ -384,13 +384,13 @@
 /* Apply the same gradient to the 2nd and 4th process steps */
 .process-two ul li:nth-child(2) .process-two__count::before,
 .process-two ul li:nth-child(4) .process-two__count::before {
-    background: linear-gradient(90deg,#7DB828 0%, #007EC8 100%);
+    background: linear-gradient(90deg,#b14003 0%, #fa7933 100%);
 }
 
 .process-two ul li:nth-child(2) .process-two__count::after,
 .process-two ul li:nth-child(4) .process-two__count::after {
     border: 1px solid transparent;
-    background: linear-gradient(-90deg, #007EC8, #7DB828) border-box;
+    /* background: linear-gradient(-90deg, #007EC8, #7DB828) border-box; */
     -webkit-mask: linear-gradient(#fff 0 0) padding-box,
         linear-gradient(#fff 0 0);
     -webkit-mask-composite: xor;

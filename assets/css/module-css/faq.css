@@ -72,15 +72,30 @@
 
 .faq-one__experience-box {
     position: absolute;
-    bottom: 30px;
-    right: -70px;
-    background: linear-gradient(270deg, #5CB0E9 0%, #3D72FC 100%);
+    bottom: 10px;
+    right: -90px;
+    background: linear-gradient(270deg, #e9895c 0%, #ee6728 100%);
     max-width: 180px;
     width: 100%;
     text-align: center;
     padding: 30px 0 30px;
     border-radius: 10px;
     z-index: 1;
+}
+/* For screens up to 576px (mobile) */
+@media (max-width: 576px) {
+    .faq-one__experience-box {
+        padding: 15px 0;
+        font-size: 11px;
+        width: 100px;
+    }
+    .faq-one__experience-year h2 {
+    font-size: 14px !important;
+    color: var(--FuzionIQ-white);
+    font-weight: 700;
+    line-height: 1.2em !important;
+    font-family: var(--FuzionIQ-font) !important;
+}
 }
 
 .faq-one__experience-year {

@@ -495,7 +495,7 @@
     bottom: 0px;
     border-radius: 50%;
     border: 1px solid transparent;
-    background: linear-gradient(90deg,#7DB828, #7DB828) border-box;
+    background: linear-gradient(90deg,#e07a36, #b87a28) border-box;
     -webkit-mask: linear-gradient(#fff 0 0) padding-box,
         linear-gradient(#fff 0 0);
     -webkit-mask-composite: xor;
@@ -522,7 +522,7 @@
 }
 
 .services-two__services-list-single:hover .services-two__title a {
-    background: linear-gradient(90deg,#7DB828 0%, #007EC8 100%);
+    background: linear-gradient(90deg,#ffffff 0%, #c5a8a8 100%);
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
@@ -562,7 +562,7 @@
 }
 
 .services-two__services-list-single:hover .services-two__services-list-inner li p {
-    background: linear-gradient(90deg,#7DB828 0%, #007EC8 100%);
+     background: linear-gradient(90deg,#b14003 0%, #fa7933 100%);
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
